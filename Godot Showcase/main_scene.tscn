@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccomhhexlhr6j"]
+
+[ext_resource type="Texture2D" uid="uid://b6tvsquqmltaq" path="res://icon.svg" id="1_qoado"]
+
+[node name="Main Scene" type="Node2D"]
+
+[node name="Test Node" type="Node2D" parent="."]
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(536, 130)
+texture = ExtResource("1_qoado")
